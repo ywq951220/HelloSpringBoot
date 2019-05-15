@@ -1,5 +1,5 @@
-student:
-  name: 小明
-  age: 20
 server:
   port: 9999
+user:
+  userName: zhangsan
+  password: 123

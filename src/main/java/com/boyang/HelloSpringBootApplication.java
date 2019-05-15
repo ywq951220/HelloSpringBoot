@@ -2,6 +2,7 @@ package com.boyang;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.PropertySource;
 
 /**
  * 该类的作用：
@@ -22,6 +23,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * 启动的方式
  */
 @SpringBootApplication
+@PropertySource("classpath:/config/config.properties")  //指定配置文件的位置
 public class HelloSpringBootApplication {
 
     public static void main(String[] args) {
