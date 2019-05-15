@@ -1,0 +1,5 @@
+student:
+  name: 小明
+  age: 20
+server:
+  port: 9999
