@@ -3,3 +3,6 @@ server:
 user:
   userName: zhangsan
   password: 123
+teacher:
+  teacherName: 张老师
+  teacherAge: 40
