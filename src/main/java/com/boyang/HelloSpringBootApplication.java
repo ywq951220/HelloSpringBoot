@@ -23,7 +23,7 @@ import org.springframework.context.annotation.PropertySource;
  * 启动的方式
  */
 @SpringBootApplication
-@PropertySource("classpath:/config/config.properties")  //指定配置文件的位置
+//@PropertySource("classpath:/config/config.properties")  //指定配置文件的位置
 public class HelloSpringBootApplication {
 
     public static void main(String[] args) {

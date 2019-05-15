@@ -48,6 +48,7 @@
         <!--<artifactId>spring-boot-starter-jetty</artifactId>-->
         <!--</dependency>-->
 
+        <!-- 包括了 Junit 等模块 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
